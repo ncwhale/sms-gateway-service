@@ -1,23 +1,38 @@
 {
-  "name": "sms-gateway-service",
-  "version": "1.0.0",
-  "description": "A simple SMS gateway service.",
-  "main": "bin/index.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ncwhale/sms-gateway-service.git"
-  },
-  "keywords": [
-    "SMS",
-    "gateway"
-  ],
-  "author": "Kouga",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ncwhale/sms-gateway-service/issues"
-  },
-  "homepage": "https://github.com/ncwhale/sms-gateway-service#readme"
+   "name": "sms-gateway-service",
+   "version": "1.0.0",
+   "description": "A simple SMS gateway service.",
+   "main": "bin/index.js",
+   "scripts": {
+      "test": "mocha",
+      "start": "ts-node src/index.ts"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ncwhale/sms-gateway-service.git"
+   },
+   "keywords": [
+      "SMS",
+      "gateway"
+   ],
+   "author": "Kouga",
+   "license": "MIT",
+   "bugs": {
+      "url": "https://github.com/ncwhale/sms-gateway-service/issues"
+   },
+   "homepage": "https://github.com/ncwhale/sms-gateway-service#readme",
+   "dependencies": {
+      "koa": "^2.5.2",
+      "koa-router": "^7.4.0",
+      "reflect-metadata": "^0.1.10",
+      "sqlite3": "^4.0.2",
+      "typeorm": "^0.2.7"
+   },
+   "devDependencies": {
+      "@types/koa": "^2.0.46",
+      "@types/koa-router": "^7.0.31",
+      "@types/node": "^10.7.0",
+      "ts-node": "^7.0.1",
+      "typescript": "^3.0.1"
+   }
 }
