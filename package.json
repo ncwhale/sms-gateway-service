@@ -1,0 +1,23 @@
+{
+  "name": "sms-gateway-service",
+  "version": "1.0.0",
+  "description": "A simple SMS gateway service.",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncwhale/sms-gateway-service.git"
+  },
+  "keywords": [
+    "SMS",
+    "gateway"
+  ],
+  "author": "Kouga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ncwhale/sms-gateway-service/issues"
+  },
+  "homepage": "https://github.com/ncwhale/sms-gateway-service#readme"
+}
